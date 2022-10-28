@@ -1,0 +1,38 @@
+* 
+{
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+}
+
+.container 
+{
+    display: flex;
+    width: 90vw;
+}
+
+.img_container
+{
+    background-color: black;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    transition: flex 0.7s ease-in;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_container.active
+{
+    flex: 5;
+}
+
+@media (max-width: 480px) {
+    .container {
+      width: 100vw;
+    }
+}
