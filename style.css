@@ -16,14 +16,14 @@
     width: 100px;
     border-radius: 50px;
     cursor: pointer;
-    flex: 0.1;
+    flex: 0.05;
     margin: 5px;
     transition: flex 0.7s ease-in;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 body
@@ -40,4 +40,8 @@ body
     .container {
       width: 100vw;
     }
+    .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
 }
