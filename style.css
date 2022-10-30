@@ -11,13 +11,12 @@
     width: 90vw;
 }
 
-.img_container
+.slide
 {
-    background-color: black;
     width: 100px;
     border-radius: 50px;
     cursor: pointer;
-    flex: 0.5;
+    flex: 0.1;
     margin: 10px;
     transition: flex 0.7s ease-in;
     height: 100%;
@@ -26,7 +25,11 @@
     background-size: cover;
 }
 
-.img_container.active
+body
+{
+    background-color: blueviolet;
+}
+.slide.active
 {
     flex: 5;
 }

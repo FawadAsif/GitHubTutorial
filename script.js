@@ -1,8 +1,9 @@
-const imgContainers = document.querySelectorAll('.img_container')
-
-imgContainers.forEach(i => {
+const slideCntr = document.querySelectorAll('.slide')
+console.log(slideCntr)
+slideCntr.forEach(i => {
+    console.log("Click event!!!")
     i.addEventListener('click', () => {
-        imgContainers.forEach(j => {
+        slideCntr.forEach(j => {
             j.classList.remove('active')
         })
        i.classList.add('active')
